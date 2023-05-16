@@ -1,0 +1,48 @@
+.nav-scroll {
+    overflow-y: hidden; /*скрываем контент, который выходит за нижнюю границу*/
+    background-color: #fff; /*цвета фона*/
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); /*тень*/
+    }
+    .nav-scroll_items {
+    display: flex; /*flex-контейнер*/
+    flex-wrap: nowrap;
+    overflow-x: auto; /*прокрутка по горизонтали*/
+    white-space: nowrap; /*запрет переносить текст*/
+    }
+    .nav-scroll_item {
+    color: #424242;
+    display: flex;
+    padding: 0.5rem 1.25rem;
+    text-decoration: none;
+    }
+    .nav-scroll_item:not(:last-child) {
+    border-right: 1px solid #eee;
+    }
+    .nav-scroll_item_active {
+    background-color: #fff59d;
+    }
+    .nav-scroller__item:not(.nav-scroller__item_active):hover {
+    background-color: #f5f5f5;
+    }
+    /* Цвет и отк. подчеркивание для активного пункта */
+    .nav-scroll_item:hover {
+    background-color: #fff176;
+    text-decoration: none;
+    }
+    /*Контент*/
+    .content {
+    padding: 10px 0; /*отступ слева и справа*/
+    width: 75%; /* 75% экрана*/
+    margin: 0 auto; /*центрируем контейнер*/
+    }
+    h3 {margin-left: 10px;} /*отступ слева*/
+    /*Footer*/
+    Footer {
+    background-color: #f5f5f5;
+    padding: 10px 0;
+    clear: both; /*свойство очистки заставляет conteiner видеть место окончания столбцов*/
+    }
+    .text-block{ /*текст нижнего колонтитула*/
+    margin-left: 20px;
+    font-size: 12px;
+    }

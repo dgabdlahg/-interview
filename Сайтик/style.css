@@ -1,0 +1,1336 @@
+body{
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+nav{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(images/bg1.png);
+    width: 100%;
+    height: 643px;
+}
+.zxc{
+    margin-top: 250px;
+}
+.nav{
+    margin-right: 33px;
+}
+.nav1{
+    font-size: 20px;
+    text-align: right;
+    padding-top: 9px;
+}
+.asd{
+    width: 640px;
+}
+.button_1{
+    width: 153px;
+    height: 37px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 450px;
+}
+.button{
+    width: 153px;
+    height: 37px;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: #313C2E;
+    border-color: #F0F403;
+    color: #F0F403;
+    transition-duration: 1s;
+}
+.button:hover{
+    background-color: #F0F403;
+    color:#313C2E;
+    border-color: none;
+    font-size: 16px;
+}
+.adres{
+    float: right;
+    margin-top: 70px;
+    margin-right: 33px;
+    font-size: 20px;
+    text-align: justify;
+}
+.polosa{
+    display: flex;
+    justify-content: space-between;
+    background-color: #E9D796;
+    height: 176px;
+}
+.q{
+    margin-left: 139px;
+    margin-top: 61px;
+    font-size: 18px;
+}
+.w{
+    margin-top: 61px;
+    font-size: 18px;
+}
+.e{
+    margin-right: 107px;
+    margin-top: 61px;
+    font-size: 18px;
+}
+.vl {
+    border-left: 1px solid;
+}
+.gallery_header{
+    font-size: 40px;
+}
+.gallery_info{
+    font-size: 20px;
+}
+.gallery{
+    margin-left: 100px;
+}
+.button_gallery{
+    margin-top: 38px;
+    width: 153px;
+    height: 37px;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 16px;
+    transition-duration: 1s;
+}
+.button_gallery:hover{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+
+
+
+/* Слайдер: */
+.slider{
+    max-width: 45%;
+    /* Положение элемента устанавливается относительно его исходной позиции: */
+    position: relative;
+    margin-top: -235px;
+    margin-right: 65px;
+    float: right;
+    height: 520px;
+    width: 520px;
+}
+
+/* Картинка масштабируется по отношению к родительскому элементу: */
+.slider .item img {
+    /* Элемент меняет размер так, чтобы заполнить блок и сохранить пропорции: */
+    border-radius: 20px;
+    object-fit: cover;
+    width: 100%;
+    height: 520px;
+    width: 520px;
+}
+
+/* Кнопки назад и вперёд: */
+.slider .previous, .slider .next {
+    /* Добавляет курсору иконку, когда тот оказывается над кнопкой: */
+    cursor: pointer;
+    /* Положение элемента задаётся относительно границ браузера: */
+    position: absolute;
+    top: 90%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    /* Оформление самих кнопок: */
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    /* Плавное появление фона при наведении курсора: */
+    transition: 0.6s ease;
+    /* Скругление границ: */
+    border-radius: 100%;
+}
+.slider .next {
+    margin-left: 50px;
+    border-radius: 100%;
+}
+
+/* При наведении курсора на кнопки добавляем фон кнопок: */
+.slider .previous:hover,
+.slider .next:hover {
+    background-color: rgba(233, 215, 150, 0.5);
+}
+
+/* Анимация слайдов: */
+.slider .item {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    /* Устанавливаем и изменяем степень прозрачности: */
+    from {
+        opacity: 0.4
+    }
+    to {
+        opacity: 1
+    }
+}
+.nav2{
+    font-size: 20px;
+    text-align: left;
+    padding-top: 9px;
+    height: 52px;
+}
+.nav_2{
+    margin-left: 33px;
+    color: #E9D796;
+}
+.adres_2{
+    float: right;
+    margin-right: 104px;
+    color: #E9D796;
+}
+form{
+    height: 576px;
+    width: 358px;
+    background-color: #E9D796;
+    border-radius: 100px;
+    float: right;
+    margin-top: 87px;
+    margin-right: 157px;
+}
+.form_wrapper{
+    padding-top: 43px;
+}
+.form_group{
+    width: 242px;
+    height: 52px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 18px;
+}
+.form_control{
+    width: 242px;
+    height: 52px;
+    border-radius: 100px;
+    border: 0px;
+    background-color: #313C2E;
+    font-size: 20px;
+}
+input::-webkit-input-placeholder {
+    color: #E9D796;
+    padding-left: 7px;
+   } 
+input::-moz-placeholder {
+    color: #E9D796;
+}
+.button_form{
+    width: 203px;
+    height: 48px;
+    margin-top: 51px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.button_form_1{
+    width: 203px;
+    height: 48px;
+    border-radius: 100px;
+    border: 0px;
+    font-size: 30px;
+    color: #E9D796;
+    background-color: #313C2E;
+    transition-duration: 1s;
+}
+.button_form_1:hover{
+    color: #313C2E;
+    background-color: #E9D796;
+}
+.nav3{
+    font-size: 20px;
+    text-align: left;
+    padding-top: 9px;
+    height: 656px;
+    background-image: url(images/bg_services.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.nav_3{
+    margin-left: 33px;
+    color: #E9D796;
+}
+.button_9{
+    width: 153px;
+    height: 37px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 466px;
+}
+.button9{
+    width: 153px;
+    height: 37px;
+    border-radius: 20px;
+    font-size: 12px;
+    background-color: #313C2E;
+    border-color: #F0F403;
+    color: #F0F403;
+    transition-duration: 1s;
+}
+.asd9{
+    width: 626px;
+}
+.services_wrapper{
+    float: right;
+    width: 654px;
+}
+.services_name{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 93px;
+}
+.services_info{
+    padding-top: 116px;
+    padding-left: 100px;
+    height: 133px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img_brow{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 120px;
+    margin-left: 60px;
+}
+.m{
+    font-size: 20px;
+    margin-left: 268px;
+}
+
+.button_services{
+    margin-top: 100px;
+    width: 153px;
+    height: 37px;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 16px;
+    transition-duration: 1s;
+}
+.button_services:hover{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+.info_brow{
+    padding-top: 30px;
+}
+.price{
+    padding-top: 30px;
+}
+.m_left{
+    font-size: 20px;
+    margin-left: 19px;
+    margin-right: 268px;
+}
+.h{
+    max-width: 100%;
+}
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-track{
+    background-color: #b1b4b0;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #757573;
+    border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #3b3b3b;
+    border-radius: 8px;
+}
+.adaptation{
+    max-width: 1366px;
+    margin: auto;
+}
+@media (max-width:1400px) {
+    .adaptation{
+        max-width: 1366px;
+    }
+    .m{
+        font-size: 20px;
+        margin-left: 413px;
+    }
+    .m_left{
+        margin-left: 19px;
+        margin-right: 413px;
+    }
+}
+@media (max-width:1030px) {
+    .adaptation{
+        max-width: 1024px;
+    }
+    nav{
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-image: url(images/bg1.png);
+        width: 100%;
+        height: 500px;
+    }
+    .zxc{
+        margin-top: 250px;
+    }
+    .nav{
+        margin-right: 33px;
+    }
+    .nav1{
+        font-size: 20px;
+        text-align: right;
+        padding-top: 9px;
+    }
+    .asd{
+        width: 512px;
+    }
+    .button_1{
+        width: 153px;
+        height: 37px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 324px;
+    }
+    .button{
+        width: 153px;
+        height: 37px;
+        border-radius: 20px;
+        font-size: 16px;
+        background-color: #313C2E;
+        border-color: #F0F403;
+        color: #F0F403;
+        transition-duration: 1s;
+    }
+    .adres{
+        float: right;
+        margin-top: 50px;
+        margin-right: 33px;
+        font-size: 20px;
+        text-align: justify;
+    }
+    .polosa{
+        display: flex;
+        justify-content: space-between;
+        background-color: #E9D796;
+        height: 176px;
+    }
+    .q{
+        margin-left: 139px;
+        margin-top: 61px;
+        font-size: 18px;
+    }
+    .w{
+        margin-top: 61px;
+        font-size: 18px;
+    }
+    .e{
+        margin-right: 107px;
+        margin-top: 61px;
+        font-size: 18px;
+    }
+    .vl {
+        border-left: 1px solid;
+    }
+    .gallery_header{
+        font-size: 40px;
+    }
+    .gallery_info{
+        font-size: 17px;
+    }
+    .gallery{
+        margin-left: 100px;
+    }
+    .button_gallery{
+        margin-top: 38px;
+        width: 153px;
+        height: 37px;
+        border-radius: 20px;
+        background-color: white;
+        font-size: 16px;
+        transition-duration: 1s;
+    }
+    
+    
+    
+    
+    /* Слайдер: */
+    .slider{
+        max-width: 45%;
+        /* Положение элемента устанавливается относительно его исходной позиции: */
+        position: relative;
+        margin-top: -235px;
+        margin-right: 65px;
+        float: right;
+        height: 520px;
+        width: 520px;
+    }
+    
+    /* Картинка масштабируется по отношению к родительскому элементу: */
+    .slider .item img {
+        /* Элемент меняет размер так, чтобы заполнить блок и сохранить пропорции: */
+        border-radius: 20px;
+        object-fit: cover;
+        width: 100%;
+        height: 410px;
+        width: 410px;
+    }
+    
+    /* Кнопки назад и вперёд: */
+    .slider .previous, .slider .next {
+        /* Добавляет курсору иконку, когда тот оказывается над кнопкой: */
+        cursor: pointer;
+        /* Положение элемента задаётся относительно границ браузера: */
+        position: absolute;
+        top: 90%;
+        width: auto;
+        margin-top: -120px;
+        padding: 16px;
+        /* Оформление самих кнопок: */
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        /* Плавное появление фона при наведении курсора: */
+        transition: 0.6s ease;
+        /* Скругление границ: */
+        border-radius: 100%;
+    }
+    .slider .next {
+        margin-left: 50px;
+        border-radius: 100%;
+    }
+    
+    /* При наведении курсора на кнопки добавляем фон кнопок: */
+    .slider .previous:hover,
+    .slider .next:hover {
+        background-color: rgba(233, 215, 150, 0.5);
+    }
+    
+    /* Анимация слайдов: */
+    .slider .item {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    @keyframes fade {
+        /* Устанавливаем и изменяем степень прозрачности: */
+        from {
+            opacity: 0.4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    .nav2{
+        font-size: 20px;
+        text-align: left;
+        padding-top: 9px;
+        height: 52px;
+    }
+    .nav_2{
+        margin-left: 33px;
+        color: #E9D796;
+    }
+    .adres_2{
+        float: right;
+        margin-right: 104px;
+        color: #E9D796;
+    }
+    form{
+        height: 460px;
+        width: 286px;
+        background-color: #E9D796;
+        border-radius: 100px;
+        float: right;
+        margin-top: 69px;
+        margin-right: 125px;
+    }
+    .form_wrapper{
+        padding-top: 43px;
+    }
+    .form_group{
+        width: 193px;
+        height: 41px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 14px;
+    }
+    .form_control{
+        width: 193px;
+        height: 41px;
+        border-radius: 100px;
+        border: 0px;
+        background-color: #313C2E;
+        font-size: 20px;
+    }
+    input::-webkit-input-placeholder {
+        color: #E9D796;
+        padding-left: 7px;
+       } 
+    input::-moz-placeholder {
+        color: #E9D796;
+    }
+    .button_form{
+        width: 162px;
+        height: 38px;
+        margin-top: 40px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .button_form_1{
+        width: 162px;
+        height: 38px;
+        border-radius: 100px;
+        border: 0px;
+        font-size: 24px;
+        color: #E9D796;
+        background-color: #313C2E;
+        transition-duration: 1s;
+    }
+    .nav3{
+        font-size: 20px;
+        text-align: left;
+        padding-top: 9px;
+        height: 522px;
+        background-image: url(images/bg_services.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .nav_3{
+        margin-left: 33px;
+        color: #E9D796;
+    }
+    .services_wrapper{
+        float: right;
+        width: 524px;
+    }
+    .services_name{
+        font-size: 39px;
+        text-align: center;
+        padding-top: 93px;
+    }
+    .services_info{
+        padding-top: 116px;
+        padding-left: 100px;
+        height: 133px;
+        font-size: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .button_9{
+        width: 121px;
+        height: 29px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 371px;
+    }
+    .button9{
+        width: 121px;
+        height: 29px;
+        border-radius: 20px;
+        font-size: 12px;
+        background-color: #313C2E;
+        border-color: #F0F403;
+        color: #F0F403;
+        transition-duration: 1s;
+    }
+    .asd9{
+        width: 498px;
+    }
+    .img_brow_9{
+        width: 290px;
+        height: 294px;
+    }
+    .img_brow{
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 91px;
+        margin-left: 47px;
+    }
+    .m{
+        font-size: 16px;
+        margin-left: 213px;
+    }
+    
+    .button_services{
+        margin-top: 70px;
+        width: 153px;
+        height: 37px;
+        border-radius: 20px;
+        background-color: white;
+        font-size: 16px;
+        transition-duration: 1s;
+    }
+    .info_brow{
+        font-size: 16px;
+        padding-top: 24px;
+    }
+    .price{
+        font-size: 16px;
+        padding-top: 26px;
+    }
+    .m_left{
+        font-size: 16px;
+        margin-left: 19px;
+        margin-right: 213px;
+    }
+    .h{
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width:770px) {
+    .adaptation{
+        width: 768px;
+    }
+    nav{
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-image: url(images/bg1.png);
+        width: 100%;
+        height: 390px;
+    }
+    .zxc{
+        margin-top: 250px;
+    }
+    .nav{
+        margin-right: 33px;
+        font-size: 12px;
+    }
+    .nav1{
+        font-size: 20px;
+        text-align: right;
+        padding-top: 6px;
+    }
+    .asd{
+        width: 392px;
+    }
+    .button_1{
+        width: 91px;
+        height: 22px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 243px;
+    }
+    .button{
+        width: 91px;
+        height: 22px;
+        border-radius: 20px;
+        font-size: 9px;
+        background-color: #313C2E;
+        border-color: #F0F403;
+        color: #F0F403;
+        transition-duration: 1s;
+    }
+    .adres{
+        float: right;
+        margin-top: 50px;
+        margin-right: 33px;
+        font-size: 9px;
+        text-align: justify;
+    }
+    .polosa{
+        display: flex;
+        justify-content: space-between;
+        background-color: #E9D796;
+        height: 107px;
+    }
+    .q{
+        margin-left: 84px;
+        margin-top: 37px;
+        font-size: 9px;
+    }
+    .w{
+        margin-top: 37px;
+        font-size: 9px;
+    }
+    .e{
+        margin-right: 84px;
+        margin-top: 37px;
+        font-size: 9px;
+    }
+    .vl {
+        border-left: 1px solid;
+    }
+    .gallery_header{
+        font-size: 24px;
+    }
+    .gallery_info{
+        font-size: 12px;
+    }
+    .gallery{
+        margin-left: 60px;
+    }
+    .button_gallery{
+        margin-top: 38px;
+        width: 91px;
+        height: 22px;
+        border-radius: 20px;
+        background-color: white;
+        font-size: 9px;
+        transition-duration: 1s;
+    }
+    
+    
+    
+    
+    /* Слайдер: */
+    .slider{
+        max-width: 45%;
+        /* Положение элемента устанавливается относительно его исходной позиции: */
+        position: relative;
+        margin-top: -150px;
+        margin-right: 39px;
+        float: right;
+        height: 520px;
+        width: 520px;
+    }
+    
+    /* Картинка масштабируется по отношению к родительскому элементу: */
+    .slider .item img {
+        /* Элемент меняет размер так, чтобы заполнить блок и сохранить пропорции: */
+        border-radius: 20px;
+        object-fit: cover;
+        width: 100%;
+        height: 306px;
+        width: 306px;
+    }
+    
+    /* Кнопки назад и вперёд: */
+    .slider .previous, .slider .next {
+        /* Добавляет курсору иконку, когда тот оказывается над кнопкой: */
+        cursor: pointer;
+        /* Положение элемента задаётся относительно границ браузера: */
+        position: absolute;
+        top: 90%;
+        width: auto;
+        margin-top: -220px;
+        padding: 16px;
+        /* Оформление самих кнопок: */
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        /* Плавное появление фона при наведении курсора: */
+        transition: 0.6s ease;
+        /* Скругление границ: */
+        border-radius: 100%;
+    }
+    .slider .next {
+        margin-left: 50px;
+        border-radius: 100%;
+    }
+    
+    /* При наведении курсора на кнопки добавляем фон кнопок: */
+    .slider .previous:hover,
+    .slider .next:hover {
+        background-color: rgba(233, 215, 150, 0.5);
+    }
+    
+    /* Анимация слайдов: */
+    .slider .item {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    @keyframes fade {
+        /* Устанавливаем и изменяем степень прозрачности: */
+        from {
+            opacity: 0.4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    .nav2{
+        font-size: 12px;
+        text-align: left;
+        padding-top: 9px;
+        height: 52px;
+    }
+    .nav_2{
+        margin-left: 33px;
+        color: #E9D796;
+    }
+    .adres_2{
+        font-size: 9px;
+        float: right;
+        margin-right: 104px;
+        color: #E9D796;
+    }
+    form{
+        height: 345px;
+        width: 214px;
+        background-color: #E9D796;
+        border-radius: 60px;
+        float: right;
+        margin-top: 69px;
+        margin-right: 94px;
+    }
+    .form_wrapper{
+        padding-top: 36px;
+    }
+    .form_group{
+        width: 145px;
+        height: 31px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 10px;
+    }
+    .form_control{
+        width: 145px;
+        height: 31px;
+        border-radius: 100px;
+        border: 0px;
+        background-color: #313C2E;
+        font-size: 12px;
+    }
+    input::-webkit-input-placeholder {
+        color: #E9D796;
+        padding-left: 7px;
+       } 
+    input::-moz-placeholder {
+        color: #E9D796;
+    }
+    .button_form{
+        width: 121px;
+        height: 28px;
+        margin-top: 30px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .button_form_1{
+        width: 121px;
+        height: 28px;
+        border-radius: 100px;
+        border: 0px;
+        font-size: 18px;
+        color: #E9D796;
+        background-color: #313C2E;
+        transition-duration: 1s;
+    }
+    .nav3{
+        font-size: 12px;
+        text-align: left;
+        padding-top: 6px;
+        height: 392px;
+        background-image: url(images/bg_services.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .nav_3{
+        margin-left: 33px;
+        color: #E9D796;
+    }
+    .services_wrapper{
+        float: right;
+        width: 393px;
+    }
+    .services_name{
+        font-size: 29px;
+        text-align: center;
+        padding-top: 93px;
+    }
+    .services_info{
+        padding-top: 116px;
+        padding-right: 26px;
+        height: 133px;
+        font-size: 12px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .button_9{
+        width: 91px;
+        height: 22px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 271px;
+    }
+    .button9{
+        width: 91px;
+        height: 22px;
+        border-radius: 20px;
+        font-size: 9px;
+        background-color: #313C2E;
+        border-color: #F0F403;
+        color: #F0F403;
+        transition-duration: 1s;
+    }
+    .asd9{
+        width: 374px;
+    }
+    .img_brow_9{
+        width: 217px;
+        height: 220px;
+    }
+    .img_brow{
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 69px;
+        margin-left: 47px;
+    }
+    .m{
+        font-size: 12px;
+        margin-left: 160px;
+    }
+    
+    .button_services{
+        margin-top: 52px;
+        width: 91px;
+        height: 22px;
+        border-radius: 20px;
+        background-color: white;
+        font-size: 9px;
+        transition-duration: 1s;
+    }
+    .info_brow{
+        font-size: 12px;
+        padding-top: 18px;
+    }
+    .price{
+        font-size: 12px;
+        padding-top: 18px;
+    }
+    .m_left{
+        font-size: 12px;
+        margin-left: 19px;
+        margin-right: 159px;
+    }
+    .h{
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:391px) {
+    .adaptation{
+        width: 390px;
+    }
+    nav{
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-image: url(images/bg1.png);
+        width: 100%;
+        height: 200px;
+    }
+    .zxc{
+        margin-top: 250px;
+    }
+    .nav{
+        margin-right: 12px;
+        font-size: 6px;
+    }
+    .nav1{
+        font-size: 6px;
+        text-align: right;
+        padding-top: 6px;
+    }
+    .asd{
+        width: 199px;
+    }
+    .button_1{
+        width: 46px;
+        height: 11px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 123px;
+    }
+    .button{
+        width: 46px;
+        height: 11px;
+        border-radius: 20px;
+        font-size: 5px;
+        background-color: #313C2E;
+        border-color: #F0F403;
+        color: #F0F403;
+        transition-duration: 1s;
+    }
+    .adres{
+        float: right;
+        margin-top: 30px;
+        margin-right: 13px;
+        font-size: 5px;
+        text-align: justify;
+    }
+    .polosa{
+        display: flex;
+        justify-content: space-between;
+        background-color: #E9D796;
+        height: 54px;
+    }
+    .q{
+        margin-left: 43px;
+        margin-top: 19px;
+        font-size: 5px;
+    }
+    .w{
+        margin-top: 19px;
+        font-size: 5px;
+    }
+    .e{
+        margin-right: 43px;
+        margin-top: 19px;
+        font-size: 5px;
+    }
+    .vl {
+        border-left: 1px solid;
+    }
+    .gallery_header{
+        font-size: 12px;
+    }
+    .gallery_info{
+        font-size: 6px;
+    }
+    .gallery{
+        margin-left: 31px;
+    }
+    .button_gallery{
+        margin-top: 9px;
+        width: 46px;
+        height: 11px;
+        border-radius: 20px;
+        background-color: white;
+        font-size: 5px;
+        transition-duration: 1s;
+    }
+    
+    
+    
+    
+    /* Слайдер: */
+    .slider{
+        max-width: 45%;
+        /* Положение элемента устанавливается относительно его исходной позиции: */
+        position: relative;
+        margin-top: -75px;
+        margin-right: 19px;
+        float: right;
+        height: 520px;
+        width: 520px;
+    }
+    
+    /* Картинка масштабируется по отношению к родительскому элементу: */
+    .slider .item img {
+        /* Элемент меняет размер так, чтобы заполнить блок и сохранить пропорции: */
+        border-radius: 20px;
+        object-fit: cover;
+        width: 100%;
+        height: 155px;
+        width: 155px;
+    }
+    
+    /* Кнопки назад и вперёд: */
+    .slider .previous, .slider .next {
+        /* Добавляет курсору иконку, когда тот оказывается над кнопкой: */
+        cursor: pointer;
+        /* Положение элемента задаётся относительно границ браузера: */
+        position: absolute;
+        top: 90%;
+        width: auto;
+        margin-top: -355px;
+        padding: 16px;
+        /* Оформление самих кнопок: */
+        color: white;
+        font-weight: bold;
+        font-size: 8px;
+        /* Плавное появление фона при наведении курсора: */
+        transition: 0.6s ease;
+        /* Скругление границ: */
+        border-radius: 100%;
+    }
+    .slider .next {
+        margin-left: 30px;
+        border-radius: 100%;
+    }
+    
+    /* При наведении курсора на кнопки добавляем фон кнопок: */
+    .slider .previous:hover,
+    .slider .next:hover {
+        background-color: rgba(233, 215, 150, 0.5);
+    }
+    
+    /* Анимация слайдов: */
+    .slider .item {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    @keyframes fade {
+        /* Устанавливаем и изменяем степень прозрачности: */
+        from {
+            opacity: 0.4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    .nav2{
+        font-size: 12px;
+        text-align: left;
+        padding-top: 9px;
+        height: 52px;
+    }
+    .nav_2{
+        margin-left: 33px;
+        color: #E9D796;
+    }
+    .adres_2{
+        font-size: 9px;
+        float: right;
+        margin-right: 104px;
+        color: #E9D796;
+    }
+    form{
+        height: 345px;
+        width: 214px;
+        background-color: #E9D796;
+        border-radius: 60px;
+        float: right;
+        margin-top: 69px;
+        margin-right: 94px;
+    }
+    .form_wrapper{
+        padding-top: 36px;
+    }
+    .form_group{
+        width: 145px;
+        height: 31px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 10px;
+    }
+    .form_control{
+        width: 145px;
+        height: 31px;
+        border-radius: 100px;
+        border: 0px;
+        background-color: #313C2E;
+        font-size: 12px;
+    }
+    input::-webkit-input-placeholder {
+        color: #E9D796;
+        padding-left: 7px;
+       } 
+    input::-moz-placeholder {
+        color: #E9D796;
+    }
+    .button_form{
+        width: 121px;
+        height: 28px;
+        margin-top: 30px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .button_form_1{
+        width: 121px;
+        height: 28px;
+        border-radius: 100px;
+        border: 0px;
+        font-size: 18px;
+        color: #E9D796;
+        background-color: #313C2E;
+        transition-duration: 1s;
+    }
+    .nav3{
+        font-size: 12px;
+        text-align: left;
+        padding-top: 6px;
+        height: 392px;
+        background-image: url(images/bg_services.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .nav_3{
+        margin-left: 33px;
+        color: #E9D796;
+    }
+    .services_wrapper{
+        float: right;
+        width: 393px;
+    }
+    .services_name{
+        font-size: 29px;
+        text-align: center;
+        padding-top: 93px;
+    }
+    .services_info{
+        padding-top: 116px;
+        padding-right: 26px;
+        height: 133px;
+        font-size: 12px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .button_9{
+        width: 91px;
+        height: 22px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 271px;
+    }
+    .button9{
+        width: 91px;
+        height: 22px;
+        border-radius: 20px;
+        font-size: 9px;
+        background-color: #313C2E;
+        border-color: #F0F403;
+        color: #F0F403;
+        transition-duration: 1s;
+    }
+    .asd9{
+        width: 374px;
+    }
+    .img_brow_9{
+        width: 217px;
+        height: 220px;
+    }
+    .img_brow{
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 69px;
+        margin-left: 47px;
+    }
+    .m{
+        font-size: 12px;
+        margin-left: 160px;
+    }
+    
+    .button_services{
+        margin-top: 52px;
+        width: 91px;
+        height: 22px;
+        border-radius: 20px;
+        background-color: white;
+        font-size: 9px;
+        transition-duration: 1s;
+    }
+    .info_brow{
+        font-size: 12px;
+        padding-top: 18px;
+    }
+    .price{
+        font-size: 12px;
+        padding-top: 18px;
+    }
+    .m_left{
+        font-size: 12px;
+        margin-left: 19px;
+        margin-right: 159px;
+    }
+    .h{
+        max-width: 100%;
+    }
+}

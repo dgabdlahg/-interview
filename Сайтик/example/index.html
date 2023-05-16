@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Практикум по PHP</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/index.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="nav-scroll">
+                <nav class="nav-scroll_items">
+                    <a class="nav-scroll_item" onclick='linkcontent("php/00-index.php");' href="#">Главная</a>
+                    <a class="nav-scroll_item" href="#" onclick='linkcontent("php/01-hello.html");'>1.Метод GET</a>
+                    <a class="nav-scroll_item" href="#" onclick='linkcontent("php/03-string.php");'>2.Строки</a>
+                    <a class="nav-scroll_item" href="#" onclick='linkcontent("php/04-printf.php");'>3.Числа</a>
+                </nav>
+            </div>
+        </header>
+        <div class="content" id="content">
+            <h3>PHP - это серверный язык программирования </h3>
+            <p> <img src="images/php.png" alt="PHP" class="leftimg"
+                title="PHP" height="302" width="643">
+            </p>
+        </div>
+        <div id="loading" style="display: none;">Идёт загрузка..</div>
+        <footer>
+            <div class="text-block">Колледж АлтГУ 2023</div>
+        </footer>
+    </body>
+</html>

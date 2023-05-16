@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Запись</title>
+</head>
+<body background="images/bg_form.png">
+    <header>
+            <div class="nav2">
+                <span class="nav_2">
+                    <a href="index.html">
+                   Главная
+                    </a>
+                </span>  
+                <span class="nav_2">
+                     <a href="services.html">
+                    Услуги
+                     </a>
+                </span>  
+                <span class="nav_2">
+                    <a href="interior.html">
+                    Интерьер 
+                    </a>
+                </span> 
+                <span class="adres_2">
+                    8-999-999-99-99<br>
+                    г. Барнаул .....
+                </span>  
+            </div>  
+    </header>
+        <form action="mail.php" method="POST">
+            <div class="form_wrapper">
+                    <div class="form_group">
+                <input type="text" class="form_control" name="service" placeholder="Услуга">
+                    </div>
+                    <div class="form_group">
+                <input type="text" class="form_control" name="sur_name" placeholder="Фамилия">
+                    </div>
+                    <div class="form_group">
+                <input type="text" class="form_control" name="user_name" placeholder="Имя">
+                    </div>
+                    <div class="form_group">
+                <input type="text" class="form_control" name="middle name" placeholder="Отчество">
+                    </div>
+                    <div class="form_group">
+                <input type="text" class="form_control" name="user_phone" placeholder="Номер телефона">
+                    </div>
+                    <div class="form_group">
+                <input type="text" class="form_control" name="date" placeholder="Выбрать дату">
+                    </div>
+            </div>
+                <div class="button_form">
+                    <button type="submit" class="button_form_1">
+                        Записаться
+                    </button>
+                </div>
+        </form>
+</body>
+</html>
